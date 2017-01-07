@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(../font/material-design-icons/1.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Abel'), local('Abel-Regular'), url(../font/material-design-icons/2.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    word-wrap: normal;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+body, html {
+    font-family: 'Abel', sans-serif;
+    color: #846C63;
+    background-color: #F1F4F6!important;
+}
+.btn, .btn-large, .btn-small {
+    background-color: #86A8A8!important;
+    color: white !important;
+    margin: 0;
+}
+[type="radio"]:checked+label:after {
+    border: 2px solid #86A8A8!important;
+    background-color: #86A8A8!important;
+}
+[type="checkbox"]:checked+label:before {
+    border-right: 2px solid #86A8A8!important;
+    border-bottom: 2px solid #86A8A8!important;
+}
+green {
+    color: #86A8A8!important;
+}
+#mm_area {
+    margin: 0px auto 0 auto;
+    border-top: 2px solid #555;
+    border-bottom: 2px solid #555;
+    height: 100px;
+}
+.mm_select_box {
+    opacity: 0;
+    height: 100%;
+    position: relative;
+    /*display: none;*/
+    /*left: 92px;*/
+    /*width: 291px;*/
+}
+.mm_mask {
+    opacity: 0.1;
+    height: 100%;
+    position: relative;
+    /*display: none;*/
+    width: 100%;
+    /*background-image: url(../img/tmp.png);*/
+    top: -300%;
+}
+.mm_select_box.mm_orange {
+    border-left: 3px solid #4db6ac;
+    border-right: 3px solid #4db6ac;
+    background-color: #f00;
+    top: -200%;
+}
+#mm_canvas_container {
+    height: 100%;
+}
+#minimap {
+    width: 100%;
+    height: 100%;
+}
+.mm_select_box.mm_gray {
+    border-left: 3px solid #e0e0e0;
+    border-right: 3px solid #e0e0e0;
+    background-color: #f5f5f5;
+    top: -100%;
+}
+path.storyline {
+    stroke-width: 3.5px;
+}
+.material-icons {
+    cursor: pointer;
+}
+#storyline {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.chip {
+    position: absolute;
+    left: -60px;
+    background-color: rgba(0, 0, 0, 0);
+    /*transition: top 0.5s;*/
+}
+#streaming-storyline {
+    position: relative;
+    width: 100%;
+}
+/*
+#dataset>.select-wrapper>span.caret {
+    top: 0px;
+}*/
+.card-panel {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+path.selected {
+    stroke-width: 9px !important;
+}
